@@ -8,14 +8,10 @@ public class Main {
         int C = sc.nextInt();
         
         sc.close();
-
-        if(A>=2 && B>=2 && C>=2 && A<=10000 && B<=10000 && C<=10000) {
-        //(2 ≤ A, B, C ≤ 10000)
+        
         System.out.println((A+B)%C);
         System.out.println(((A%C) + (B%C))%C);
         System.out.println((A*B)%C);
         System.out.println(((A%C)*(B%C))%C);
-        }
-
     }
 }
